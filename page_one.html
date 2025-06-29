@@ -1,10 +1,57 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-  </head>
-  <body>
-    <h1>
-      Contact Us
-    </h1>
-  </body>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+    <div class="bg-white rounded-lg shadow-xl p-8 max-w-md w-full sm:max-w-lg md:max-w-xl lg:max-w-2xl">
+        <!-- Logo and Title Section -->
+        <div class="flex flex-col items-center mb-8">
+            <!-- Placeholder Logo (replace with your actual logo image) -->
+            <img src="https://placehold.co/100x100/A78BFA/ffffff?text=LOGO" alt="Company Logo" class="w-24 h-24 rounded-full mb-4 shadow-md">
+            <h1 class="text-4xl font-bold text-gray-800 text-center mb-2">Contact Us</h1>
+            <p class="text-lg text-gray-600 text-center">We'd love to hear from you!</p>
+        </div>
+
+        <!-- Contact Text Section -->
+        <div class="mb-8 text-center">
+            <p class="text-gray-700 leading-relaxed">
+                Thank you for your interest in our services. Whether you have a question, a suggestion, or simply want to learn more about what we do, feel free to reach out. We are committed to providing the best support and look forward to connecting with you.
+            </p>
+            <p class="mt-4 text-gray-700 leading-relaxed">
+                Our team is available to assist you with any inquiries you may have. We value your feedback and are always here to help.
+            </p>
+        </div>
+
+        <!-- Social Media Links Section -->
+        <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+            <!-- Telegram Link -->
+            <a href="https://t.me/yourtelegramusername" target="_blank" rel="noopener noreferrer"
+               class="flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                <i class="fab fa-telegram-plane text-2xl mr-3"></i>
+                <span class="text-lg">Chat on Telegram</span>
+            </a>
+
+            <!-- Viber Link -->
+            <a href="viber://chat?number=+1234567890" target="_blank" rel="noopener noreferrer"
+               class="flex items-center justify-center bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                <i class="fab fa-viber text-2xl mr-3"></i>
+                <span class="text-lg">Message on Viber</span>
+            </a>
+        </div>
+    </div>
+</body>
 </html>
