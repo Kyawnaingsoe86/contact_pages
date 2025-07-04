@@ -1,5 +1,7 @@
 [
   {
-    scheme: null, host: null, path: null
+    "scheme": null,
+    "host": null,
+    "path": null
   }
 ]
